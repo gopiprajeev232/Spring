@@ -1,0 +1,15 @@
+{
+  "id": "1",
+  "firstName": "Gopi",
+  "lastName": "Prajeev",
+  "active": "true",
+  "address": {
+    "street": "Flat no. 102, Plot no. 190A/220A",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "zip": "500085",
+    "country": "USA"
+  },
+  "languages": ["Java", "C#", "C++"],
+  "company": "Zemoso Technologies"
+}
