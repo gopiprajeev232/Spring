@@ -1,8 +1,7 @@
-package com.prajeev.demo;
+package com.prajeev.demo.service;
 
 import com.prajeev.demo.entity.College;
 import com.prajeev.demo.repository.CollegeRepository;
-import com.prajeev.demo.service.CollegeService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

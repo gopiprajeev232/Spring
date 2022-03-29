@@ -32,9 +32,7 @@ public class CollegeServiceImpl implements CollegeService {
 
     @Override
     public College findById(int id) {
-        College college = collegeRepository.findById(id).get();
-
-        return college;
+        return collegeRepository.findById(id).get();
     }
 
     @Override

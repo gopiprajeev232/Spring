@@ -4,12 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import org.hibernate.validator.constraints.Length;
-
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
-import javax.validation.constraints.Size;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -19,6 +16,8 @@ import java.util.Set;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Student {
+    private static final String EMAIL_REGEX = "^([\\w\\.\\-]+)@([\\w\\-]+)((\\.(\\w){2,3})+)$";
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
@@ -37,7 +36,7 @@ public class Student {
     private String studentDept;
 
     @Column(name="student_email")
-    @Pattern(regexp = "^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$", message = "Invalid format.")
+    @Pattern(regexp = EMAIL_REGEX, message = "Invalid format.")
     private String studentEmail;
 
     @ManyToOne(cascade = {

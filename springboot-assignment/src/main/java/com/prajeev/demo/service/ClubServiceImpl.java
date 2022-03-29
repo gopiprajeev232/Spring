@@ -43,7 +43,6 @@ public class ClubServiceImpl implements ClubService {
     }
 
     public ClubDTO convertEntityToDto(Club club) {
-        ClubDTO clubDTO = mapper.map(club, ClubDTO.class);
-        return clubDTO;
+        return mapper.map(club, ClubDTO.class);
     }
 }

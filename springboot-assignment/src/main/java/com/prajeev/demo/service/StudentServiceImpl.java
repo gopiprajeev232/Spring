@@ -5,7 +5,6 @@ import com.prajeev.demo.entity.College;
 import com.prajeev.demo.entity.Student;
 import com.prajeev.demo.repository.CollegeRepository;
 import com.prajeev.demo.repository.StudentRepository;
-import javax.persistence.Query;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -52,9 +51,7 @@ public class StudentServiceImpl implements StudentService {
 
     @Override
     public List<Student> findByCollegeId(int collegeId) {
-        List<Student> students = studentRepository.findByCollegeId(collegeId);
-
-        return students;
+        return studentRepository.findByCollegeId(collegeId);
     }
 
     @Override
@@ -69,14 +66,10 @@ public class StudentServiceImpl implements StudentService {
 
     @Override
     public void deleteById(int id) {
-        System.out.println("ID: "+id);
         studentRepository.deleteById(id);
-        List<Student> students = studentRepository.findByCollegeId(1);
     }
 
     public StudentDTO convertEntityToDto(Student student) {
-        StudentDTO studentDTO = mapper.map(student, StudentDTO.class);
-
-        return studentDTO;
+        return mapper.map(student, StudentDTO.class);
     }
 }

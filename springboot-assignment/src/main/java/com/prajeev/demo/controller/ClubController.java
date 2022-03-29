@@ -1,13 +1,11 @@
 package com.prajeev.demo.controller;
 
 import com.prajeev.demo.entity.Club;
-import com.prajeev.demo.repository.ClubRepository;
 import com.prajeev.demo.service.ClubService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -17,6 +15,8 @@ import javax.validation.Valid;
 public class ClubController {
     @Autowired
     private ClubService clubService;
+
+    private String clubForm = "club-form";
 
     @GetMapping("/list")
     public String getClubs(Model model) {
@@ -30,13 +30,13 @@ public class ClubController {
     public String addNewClub(Model model) {
         model.addAttribute("club", new Club());
 
-        return "club-form";
+        return clubForm;
     }
 
     @PostMapping("/save")
     public String saveClub(@Valid @ModelAttribute("club") Club club, BindingResult bindingResult) {
         if(bindingResult.hasErrors()) {
-            return "club-form";
+            return clubForm;
         }
 
         clubService.save(club);
@@ -50,7 +50,7 @@ public class ClubController {
 
         model.addAttribute("club", club);
 
-        return "club-form";
+        return clubForm;
     }
 
     @GetMapping("/delete")

@@ -1,28 +1,30 @@
 package com.prajeev.demo.controller;
 
+import com.prajeev.demo.dto.CollegeDTO;
 import com.prajeev.demo.entity.College;
-import com.prajeev.demo.repository.CollegeRepository;
+import com.prajeev.demo.service.CollegeService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.util.ArrayList;
 import java.util.List;
 
 @Controller
 @RequestMapping("/college")
 public class CollegeController {
-    private CollegeRepository collegeRepository;
+    private CollegeService collegeService;
 
-    public CollegeController(CollegeRepository collegeRepository) {
-        this.collegeRepository = collegeRepository;
+    private String collegeForm = "college-form";
+
+    public CollegeController(CollegeService collegeService) {
+        this.collegeService = collegeService;
     }
 
     @GetMapping("/list")
     public String getAllColleges(Model model) {
-        List<College> colleges = collegeRepository.findAll();
+        List<CollegeDTO> colleges = collegeService.findAll();
         model.addAttribute("colleges", colleges);
 
         return "colleges-list";
@@ -33,31 +35,31 @@ public class CollegeController {
         College college = new College();
         model.addAttribute("college", college);
 
-        return "college-form";
+        return collegeForm;
     }
 
     @GetMapping("/showFormForUpdate")
     public String showFormForUpdate(@RequestParam("collegeId") int id, Model model) {
-        College college = collegeRepository.getById(id);
+        College college = collegeService.findById(id);
         model.addAttribute("college", college);
 
-        return "college-form";
+        return collegeForm;
     }
 
     @PostMapping("/save")
     public String saveCollege(@Valid @ModelAttribute("college") College college, BindingResult bindingResult) {
         if(bindingResult.hasErrors()) {
-            return "college-form";
+            return collegeForm;
         }
 
-        collegeRepository.save(college);
+        collegeService.save(college);
 
         return "redirect:/college/list";
     }
 
     @GetMapping("/delete")
     public String deleteCollege(@RequestParam("collegeId") int id) {
-        collegeRepository.deleteById(id);
+        collegeService.deleteById(id);
 
         return "redirect:/college/list";
     }

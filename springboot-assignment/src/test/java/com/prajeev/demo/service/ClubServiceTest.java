@@ -1,9 +1,7 @@
-package com.prajeev.demo;
+package com.prajeev.demo.service;
 
 import com.prajeev.demo.entity.Club;
 import com.prajeev.demo.repository.ClubRepository;
-import com.prajeev.demo.service.ClubService;
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -2,15 +2,10 @@ package com.prajeev.demo.controller;
 
 import com.prajeev.demo.dto.ClubDTO;
 import com.prajeev.demo.dto.StudentDTO;
-import com.prajeev.demo.entity.Club;
-import com.prajeev.demo.entity.College;
 import com.prajeev.demo.entity.Student;
-import com.prajeev.demo.repository.ClubRepository;
 import com.prajeev.demo.service.ClubService;
 import com.prajeev.demo.service.StudentService;
-import com.prajeev.demo.service.StudentServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -18,7 +13,6 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Controller
 @RequestMapping("/students")
@@ -68,7 +62,7 @@ public class StudentController {
                                 @ModelAttribute("collegeId") int collegeId,
                                 Model model) {
         if(bindingResult.hasErrors()) {
-            System.out.println("Enters binding result");
+
             model.addAttribute("collegeId", collegeId);
 
             List<ClubDTO> clubs = clubService.findAll();
@@ -106,7 +100,6 @@ public class StudentController {
     @PostMapping("/delete")
     public String deleteStudent(@ModelAttribute("studentId") int studentId, @ModelAttribute("collegeId") int collegeId) {
         studentService.deleteById(studentId);
-        System.out.println("Exits deletebyid method");
         return "redirect:/students/listByCollege?collegeId="+collegeId;
     }
 }
