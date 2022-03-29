@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1888bd9-c702-464b-ab93-b58a23f2a22f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/.idea/libraries/antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/.idea/sonarlint/issuestore/0/2/027f6eb820101c027360987eb3b7c95a173fc8a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/.idea/sonarlint/issuestore/1/f/1f23d5641040c3ce80735b34a17a323778daf79d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/.idea/sonarlint/issuestore/9/5/9510697c866f51a113214f7585605a192fb4b371" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/.idea/sonarlint/issuestore/e/e/ee78bb82e0bfc55c29a23d40e0f0e4425cbd58bb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/lib/byte-buddy-1.12.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/lib/hibernate-commons-annotations-5.1.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/lib/hibernate-core-5.6.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/lib/jandex-2.4.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/lib/jboss-logging-3.4.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/lib/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/lib/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/src/main/java/com/hibernate/onetomany/EagerLazyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/src/main/java/com/hibernate/onetomany/FetchJoinTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/src/main/java/com/hibernate/onetomany/entity/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/src/main/java/com/hibernate/onetomany/entity/Instructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/src/main/java/com/hibernate/onetomany/entity/InstructorDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/src/test/java/com/hibernate/onetoone/crud/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/target/classes/com/hibernate/onetomany/EagerLazyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/target/classes/com/hibernate/onetomany/FetchJoinTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/target/classes/com/hibernate/onetomany/entity/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/target/classes/com/hibernate/onetomany/entity/Instructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/target/classes/com/hibernate/onetomany/entity/InstructorDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/target/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateEagerVsLazyPractice/target/test-classes/com/hibernate/onetoone/crud/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/.idea/libraries/antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/.idea/sonarlint/issuestore/1/7/174ccbbd7c32e2c1170459c08959dd1ba9bffa25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/.idea/sonarlint/issuestore/3/3/33254419f508003643af038d07ef9ed702085c51" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/.idea/sonarlint/issuestore/3/a/3a6ca064c36a91a0ee1e8f124c2ce3a4c1ade6f4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/.idea/sonarlint/issuestore/5/2/52b88d2104db0ea5c6c338b5c1563795e0a65c14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/.idea/sonarlint/issuestore/7/1/714c94cc756f1b9155011bce7883658da7d71657" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/.idea/sonarlint/issuestore/9/c/9c99f8fb40695ee177cc2d9218482b2bd851c6ae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/.idea/sonarlint/issuestore/c/7/c7935dd39392490609bed9cd32e65dc7dd30ceac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/.idea/sonarlint/issuestore/d/4/d47718e46480ad52e9f06c3d398b7385aa1ae9b1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/lib/byte-buddy-1.12.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/lib/hibernate-commons-annotations-5.1.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/lib/hibernate-core-5.6.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/lib/jandex-2.4.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/lib/jboss-logging-3.4.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/lib/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/lib/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/src/main/java/com/hibernate/manytomany/CreateCoursesAndStudents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/src/main/java/com/hibernate/manytomany/DeleteCourse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/src/main/java/com/hibernate/manytomany/DeleteStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/src/main/java/com/hibernate/manytomany/GetCoursesForJohn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/src/main/java/com/hibernate/manytomany/entity/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/src/main/java/com/hibernate/manytomany/entity/Instructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/src/main/java/com/hibernate/manytomany/entity/InstructorDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/src/main/java/com/hibernate/manytomany/entity/Review.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/src/main/java/com/hibernate/manytomany/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/src/test/java/com/hibernate/onetoone/crud/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/target/classes/com/hibernate/manytomany/CreateCoursesAndStudents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/target/classes/com/hibernate/manytomany/DeleteCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/target/classes/com/hibernate/manytomany/DeleteStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/target/classes/com/hibernate/manytomany/GetCoursesForJohn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/target/classes/com/hibernate/manytomany/entity/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/target/classes/com/hibernate/manytomany/entity/Instructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/target/classes/com/hibernate/manytomany/entity/InstructorDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/target/classes/com/hibernate/manytomany/entity/Review.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/target/classes/com/hibernate/manytomany/entity/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/target/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateManyToManyPractice/target/test-classes/com/hibernate/onetoone/crud/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/.idea/libraries/antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/.idea/sonarlint/issuestore/0/2/027f6eb820101c027360987eb3b7c95a173fc8a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/.idea/sonarlint/issuestore/2/f/2f504ef002886455d8d6753c33203490ee5a627a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/.idea/sonarlint/issuestore/d/d/ddee11c4ce1166b07497482a14202c4bd0e3f99b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/.idea/sonarlint/issuestore/e/2/e2c53b3e3f5e7736667ddca2f53d07761c6bd47f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/.idea/sonarlint/issuestore/e/e/ee78bb82e0bfc55c29a23d40e0f0e4425cbd58bb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/.idea/sonarlint/issuestore/f/c/fca3124801b883ca61ad9f246e6256ab0b7f10aa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/lib/byte-buddy-1.12.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/lib/hibernate-commons-annotations-5.1.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/lib/hibernate-core-5.6.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/lib/jandex-2.4.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/lib/jboss-logging-3.4.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/lib/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/lib/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/src/main/java/com/hibernate/onetomany/CreateCourses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/src/main/java/com/hibernate/onetomany/DeleteCourse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/src/main/java/com/hibernate/onetomany/GetInstructorCourses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/src/main/java/com/hibernate/onetomany/InstructorDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/src/main/java/com/hibernate/onetomany/entity/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/src/main/java/com/hibernate/onetomany/entity/Instructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/src/main/java/com/hibernate/onetomany/entity/InstructorDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/src/test/java/com/hibernate/onetoone/crud/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/target/classes/com/hibernate/onetomany/CreateCourses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/target/classes/com/hibernate/onetomany/DeleteCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/target/classes/com/hibernate/onetomany/GetInstructorCourses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/target/classes/com/hibernate/onetomany/InstructorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/target/classes/com/hibernate/onetomany/entity/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/target/classes/com/hibernate/onetomany/entity/Instructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/target/classes/com/hibernate/onetomany/entity/InstructorDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/target/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyBiPractice/target/test-classes/com/hibernate/onetoone/crud/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/.idea/libraries/antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/.idea/sonarlint/issuestore/5/9/59175e1673bde643684fe086354e6dafe3d434d0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/.idea/sonarlint/issuestore/8/4/844654c0c66310e57a43ebf577bef67d647c8c83" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/.idea/sonarlint/issuestore/8/d/8d08ca30e9cf708bf785ea8e2726705dc28000ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/.idea/sonarlint/issuestore/f/5/f594bf2e97e00c4e831165c68528b6726af2ab4f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/lib/byte-buddy-1.12.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/lib/hibernate-commons-annotations-5.1.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/lib/hibernate-core-5.6.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/lib/jandex-2.4.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/lib/jboss-logging-3.4.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/lib/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/lib/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/src/main/java/com/hibernate/onetomanyuni/CreateCourseAndReviews.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/src/main/java/com/hibernate/onetomanyuni/GetCourseAndReviews.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/src/main/java/com/hibernate/onetomanyuni/entity/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/src/main/java/com/hibernate/onetomanyuni/entity/Instructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/src/main/java/com/hibernate/onetomanyuni/entity/InstructorDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/src/main/java/com/hibernate/onetomanyuni/entity/Review.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/src/test/java/com/hibernate/onetoone/crud/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/target/classes/com/hibernate/onetomanyuni/CreateCourseAndReviews.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/target/classes/com/hibernate/onetomanyuni/GetCourseAndReviews.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/target/classes/com/hibernate/onetomanyuni/entity/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/target/classes/com/hibernate/onetomanyuni/entity/Instructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/target/classes/com/hibernate/onetomanyuni/entity/InstructorDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/target/classes/com/hibernate/onetomanyuni/entity/Review.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/target/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToManyUniPractice/target/test-classes/com/hibernate/onetoone/crud/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/.idea/libraries/antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/.idea/libraries/mysql_connector_java_8_0_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/.idea/sonarlint/issuestore/4/b/4b3a2c678acf0b3783e27c504ab51b2423c0fd70" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/.idea/sonarlint/issuestore/7/9/79d0598843c3184bd2f4200c2f3010bda05e1e41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/.idea/sonarlint/issuestore/9/b/9b20bf9adfef3c8de41165d5d16887429335dd1a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/.idea/sonarlint/issuestore/d/f/df8fbd13b4ca868695d5b72605b95b17b50f5f4c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/.idea/sonarlint/issuestore/f/6/f6e2323592dab80e746c517faa6da74efc6295d9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/.idea/sonarlint/issuestore/f/7/f75a1b36398b846d3894da8be78203f313ee9a11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/lib/byte-buddy-1.12.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/lib/hibernate-commons-annotations-5.1.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/lib/hibernate-core-5.6.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/lib/jandex-2.4.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/lib/jboss-logging-3.4.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/lib/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/lib/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/src/main/java/com/hibernate/onetoone/BidirectionalMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/src/main/java/com/hibernate/onetoone/BidirectionalMappingDeleteDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/src/main/java/com/hibernate/onetoone/CreateDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/src/main/java/com/hibernate/onetoone/DeleteDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/src/main/java/com/hibernate/onetoone/entity/Instructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/src/main/java/com/hibernate/onetoone/entity/InstructorDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/src/test/java/com/hibernate/onetoone/crud/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/target/classes/com/hibernate/onetoone/BidirectionalMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/target/classes/com/hibernate/onetoone/BidirectionalMappingDeleteDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/target/classes/com/hibernate/onetoone/CreateDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/target/classes/com/hibernate/onetoone/DeleteDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/target/classes/com/hibernate/onetoone/entity/Instructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/target/classes/com/hibernate/onetoone/entity/InstructorDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/target/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateOneToOnePractice/target/test-classes/com/hibernate/onetoone/crud/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring Framework Notes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Spring Framework Notes.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringPractice/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringPractice/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/spring-mvc-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/spring-mvc-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dummy.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26VRzd3WEHCAJ8QZizEPugkvCnS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Spring Security" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Spring Security" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1888bd9-c702-464b-ab93-b58a23f2a22f" name="Changes" comment="" />
+      <created>1647507030802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647507030802</updated>
+    </task>
+    <servers />
+  </component>
+</project>
